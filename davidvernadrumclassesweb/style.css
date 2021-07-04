@@ -1,0 +1,42 @@
+body {
+    background-color: #000000;
+    margin: 0;
+}
+
+.topnavimage {
+    display: flex;
+    justify-content: center;
+}
+  
+.topnav {
+    font-family: Agency-FB;
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    padding: 7px;
+}
+  
+.topnav a {
+    padding: 10px 25px;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 25px;
+}
+  
+.topnav a:hover {
+    color:#e8c62e;
+}
+
+.titles {
+    font-family: Agency-FB;
+    color: #ffffff;
+    font-size: 60px;
+    text-align: Center;
+    margin-top: 60px;
+}
+
+@font-face { font-family: Agency-FB; src: url(fonts/AGENCYR.TTF);} 
+@font-face { font-family: Agency-FBB; font-weight: bold; src: url(fonts/AGENCYB.TTF);}
+@font-face { font-family: Capture-It; src: url(fonts/Capture\ it.ttf);}

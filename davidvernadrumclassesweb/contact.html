@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+        legend {
+            font-family: Agency-FB;
+            font-size: 24px;
+        }
+
+        .labeltext {
+            color: #ffffff;
+            font-family: Agency-FB;
+            display: block;
+            width: 200px;
+            float: left;
+            text-align: right;
+            margin: 10px 5px;
+            clear: left;
+        }
+
+        input, textarea {
+            margin: 10px 5px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body style="background-color: #000000">
+    <div class="topnavimage">
+        <img src="images/topnavimage.png" width="250" height="163" alt="David Verna's Drum Classes"
+            title="David Verna Clases de Batería" />
+    </div>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="#aboutdrumclasses">Sobre las clases</a>
+        <a href="#aboutdavidverna">Sobre David Verna</a>
+        <a href="#galleryimages">Galería de imágenes</a>
+        <a href="contact.html">Contacto</a>
+    </div>
+    <h1 class="titles">Contacto</h1>
+    <fieldset>
+        <legend style="color:#ffffff">Contactar a David Verna</legend>
+        <label class="labeltext" for="first-name">Nombre:</label>
+        <input type="text" name="first name" autofocus required id="first-name" />
+        <br />
+        <label class="labeltext" for="email">E-mail:</label>
+        <input type="email" name="email" placeholder="E-mail válido" required id="email" />
+        <label class="labeltext" for="message">Message:</label>
+        <textarea name="message" id="message"></textarea>
+    </fieldset>
+</body>
+
+</html>
